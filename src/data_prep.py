@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 RANDOM_STATE = 42
-RAW_PATH = Path("data/raw/Telco-Customer-Churn.csv")
+RAW_PATH = Path("data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 OUT_DIR  = Path("data/processed")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
