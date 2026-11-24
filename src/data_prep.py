@@ -4,15 +4,8 @@ import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 
-<<<<<<< HEAD
 # 1. Chargement du dataset
 df = pd.read_csv('data/WA_Fn-UseC_-Telco-Customer-Churn.csv')
-=======
-RANDOM_STATE = 42
-RAW_PATH = Path("data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
-OUT_DIR  = Path("data/processed")
-OUT_DIR.mkdir(parents=True, exist_ok=True)
->>>>>>> 0d33b55bfc28dd4bcca8d89443890abb1d681d25
 
 # 2. Analyse exploratoire
 print(df.shape)
